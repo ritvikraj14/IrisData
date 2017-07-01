@@ -42,7 +42,7 @@ from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
 
-# Load dataset
+# Load dataset from UCI Machine Learning repository
 iris_url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
 names = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'class']
 dataset = pandas.read_csv(iris_url, names=names)
